@@ -1,18 +1,12 @@
 ﻿using NextUnit.Core.TestAttributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AutoFixture.NextUnit.Tests
+namespace AutoFixture.NextUnit.Tests;
+
+public class FavorEnumerablesAttributeTests
 {
-    public class FavorEnumerablesAttributeTests
-    {
-        [Test]
-        public void FavorEnumerablesAttributeTest()
-        {
+	[Test]
+	public void FavorEnumerablesAttributeTest()
+	{
 
-        }
-    }
+	}
 }

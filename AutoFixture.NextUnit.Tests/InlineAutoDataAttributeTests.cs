@@ -5,14 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoFixture.NextUnit.Tests
+namespace AutoFixture.NextUnit.Tests;
+
+public class InlineAutoDataAttributeTests
 {
-    public class InlineAutoDataAttributeTests
-    {
-        [Test]
-        [InlineAutoData]
-        public void InlineAutoDataAttributeTest()
-        {
-        }
-    }
+	[Test]
+	[InlineAutoData]
+	public void InlineAutoDataAttributeTest()
+	{
+	}
 }
