@@ -9,10 +9,10 @@
         public int RetryCount { get; private set; }
         public TimeSpan Timeout { get; private set; }
 
-        public TimeoutRetryAttribute(int retryCount, TimeSpan timeout)
+        public TimeoutRetryAttribute(int retryCount, string timeout)
         {
             RetryCount = retryCount;
-            Timeout = timeout;
+            Timeout = TimeSpan.Parse(timeout);
         }
 
         // Implementation of retry with timeout logic
